@@ -10,4 +10,4 @@ To run the Spot, run ```python3 <file path> <spot ip addr>```
 
 ## Files:
 ```arm_rose_curve.py``` is a file that draws a rose curve with Spot's arm using polaroid equations.
-```arm_follow_wand.py``` makes Boston Dynamic's Spot robot's arm follow a path determined by data in the ```wand_log.csv``` file.
+```arm_follow_wand.py``` makes Boston Dynamic's Spot robot's arm follow a path determined by data in the ```wand_log.csv``` file. Note: the columns of data used in ths csv file are normalized around 0 to make the positions relative to spot's arm.
